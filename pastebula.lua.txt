@@ -46,7 +46,7 @@ local vapeTargetInfo = shared.VapeTargetInfo
 local vapeInjected = true
 local NebulawareFunctions = {WhitelistLoaded = false, WhitelistRefreshEvent = Instance.new("BindableEvent")}
 local NebulawareWhitelistStore = {
-	Hash = "Nebulawareprivatemoment",
+	Hash = "nebulaprivatemoment",
 	BlacklistTable = {},
 	Tab = {},
 	Rank = "OWNER",
@@ -59,8 +59,8 @@ local NebulawareWhitelistStore = {
 	},
 	RankChangeEvent = Instance.new("BindableEvent"),
 	chatstrings = {
-		Nebulawaremoment = "Nebulaware",
-		Nebulawareprivatemoment = "Nebulaware Private"
+		Nebulawaremoment = "c5xk Bedwars",
+		Nebulawareprivatemoment = "c5xk Bedwars rivate"
 	},
 	LocalPlayer = {Rank = "OWNER", Attackable = false, Priority = 1, TagText = "Nebulaware USER", TagColor = "0000FF", TagHidden = false, HWID = "ABCDEFG", Accounts = {}, BlacklistedProducts = {}, UID = 0},
 	Players = {}
